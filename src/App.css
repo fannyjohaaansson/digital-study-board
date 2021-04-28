@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+	--main-bg-color: #fffff0;
+	--second-bg-color: #adb889;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainBody {
+	height: 85vh;
+	background-color: var(--main-bg-color);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mainFooter {
+	height: 10vh;
+	background-color: var(--second-bg-color);
+	display: flex;
+	justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+#weather {
+	margin-left: 2rem;
+	display: flex;
+	align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#temp {
+	font-size: 3rem;
+	font-weight: 400;
+	margin-right: 0.5rem;
+}
+
+#description,
+#location {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 300;
+	border-left: 1px solid black;
+	padding-left: 0.5rem;
+}
+
+.dateText {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#date {
+	font-size: 1.2rem;
+	margin-right: 2rem;
+}
+
+#timeContainer {
+	align-self: center;
+}
+
+.spotifyContainer {
+	margin-left: 2rem;
+}
+
+.spotify {
 }
