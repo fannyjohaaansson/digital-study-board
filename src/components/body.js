@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Quotes from '../components/quotes'
+
 function Body() {
 	return (
 		<main className="mainBody">
@@ -14,6 +16,7 @@ function Body() {
 					className="spotify"
 				></iframe>
 			</section>
+			<Quotes />
 		</main>
 	)
 }

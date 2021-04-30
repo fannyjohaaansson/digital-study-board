@@ -2,15 +2,12 @@ import React from 'react'
 
 function Quotes() {
 	return (
-		<main className="mainQuotes">
-			<div class="container">
-				<div id="quote">
-					Don't forget: life is a race, if you don't run fast, you'll get
-					trampled
-				</div>
-				<div id="author">- Anonymous 🎭</div>
+		<div class="container">
+			<div id="quote">
+				Don't forget: life is a race, if you don't run fast, you'll get trampled
 			</div>
-		</main>
+			<div id="author">- Anonymous 🎭</div>
+		</div>
 	)
 }
 

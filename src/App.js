@@ -1,13 +1,14 @@
 import './App.css'
 import Body from './components/body'
 import Footer from './components/footer'
-import Quotes from './components/quotes'
+import Header from './components/header'
 
 function App() {
 	return (
 		<main className="">
+			<Header />
 			<Body />
-			<Quotes />
+
 			<Footer />
 		</main>
 	)

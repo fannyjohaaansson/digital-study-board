@@ -1,16 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
 :root {
-	--main-bg-color: #fffff0;
+	--main-bg-color: #fafad9;
 	--second-bg-color: #adb889;
+	--font-amatic: 'Amatic SC', cursive;
 }
 
 .mainBody {
-	height: 85vh;
+	height: 80vh;
 	background-color: var(--main-bg-color);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 }
 
 .mainFooter {
@@ -18,6 +26,24 @@
 	background-color: var(--second-bg-color);
 	display: flex;
 	justify-content: space-between;
+	border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.mainHeader {
+	height: 10vh;
+	background-color: var(--second-bg-color);
+	border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.headerTitle {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 600;
+	font-size: 2.4rem;
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 1rem;
+	color: var(--main-bg-color);
+	letter-spacing: 0.6rem;
 }
 
 #weather {
@@ -55,7 +81,33 @@
 
 .spotifyContainer {
 	margin-left: 2rem;
+	margin-top: 2rem;
+	grid-row: 1;
 }
 
 .spotify {
+	border-radius: 1rem;
+}
+
+.container {
+	grid-column: 3;
+	grid-row: 2;
+	background-color: #fbd1b3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 1rem;
+	margin-right: 3rem;
+	border-radius: 1rem;
+}
+
+#quote {
+	font-family: 'Courgette', cursive;
+}
+
+#author {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 0.8rem;
 }
