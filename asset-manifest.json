@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/digital-study-board/static/css/main.97710a21.chunk.css",
+    "main.js": "/digital-study-board/static/js/main.557d3d8c.chunk.js",
+    "main.js.map": "/digital-study-board/static/js/main.557d3d8c.chunk.js.map",
+    "runtime-main.js": "/digital-study-board/static/js/runtime-main.2d394b45.js",
+    "runtime-main.js.map": "/digital-study-board/static/js/runtime-main.2d394b45.js.map",
+    "static/js/2.c2365a6b.chunk.js": "/digital-study-board/static/js/2.c2365a6b.chunk.js",
+    "static/js/2.c2365a6b.chunk.js.map": "/digital-study-board/static/js/2.c2365a6b.chunk.js.map",
+    "static/js/3.48b17045.chunk.js": "/digital-study-board/static/js/3.48b17045.chunk.js",
+    "static/js/3.48b17045.chunk.js.map": "/digital-study-board/static/js/3.48b17045.chunk.js.map",
+    "index.html": "/digital-study-board/index.html",
+    "static/css/main.97710a21.chunk.css.map": "/digital-study-board/static/css/main.97710a21.chunk.css.map",
+    "static/js/2.c2365a6b.chunk.js.LICENSE.txt": "/digital-study-board/static/js/2.c2365a6b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d394b45.js",
+    "static/js/2.c2365a6b.chunk.js",
+    "static/css/main.97710a21.chunk.css",
+    "static/js/main.557d3d8c.chunk.js"
+  ]
+}
